@@ -14,7 +14,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-currentVersion = '1'
+currentVersion = '®'
 
 Players = game:GetService("Players")
 
@@ -206,7 +206,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Infinite Yield FE v" .. currentVersion
+Title.Text = "🌪️FE√π" .. currentVersion
 
 do
 	local emoji = ({
@@ -251,17 +251,7 @@ Dark.Size = UDim2.new(0, 250, 0, 175)
 Dark.ZIndex = 10
 table.insert(shade1,Dark)
 local part = script.Parent 
--- ตัวอย่างโค้ด Roblox Lua
-local part = script.Parent -- หรือเลือกส่วนที่ต้องการให้เปลี่ยนสี
 
-while true do
-    wait(1) -- รอ 1 วินาที
-
-    -- สร้างสีใหม่แบบสุ่ม
-    local newColor = Color3.new(math.random(), math.random(), math.random())
-    
-    -- เซ็ตสีใหม่ให้กับส่วนที่เลือก
-    part.BrickColor = BrickColor.new(newColor)
 end
 
 Cmdbar.Name = "Cmdbar"
