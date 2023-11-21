@@ -250,6 +250,19 @@ Dark.Position = UDim2.new(0, 0, 0, 45)
 Dark.Size = UDim2.new(0, 250, 0, 175)
 Dark.ZIndex = 10
 table.insert(shade1,Dark)
+local part = script.Parent 
+-- ตัวอย่างโค้ด Roblox Lua
+local part = script.Parent -- หรือเลือกส่วนที่ต้องการให้เปลี่ยนสี
+
+while true do
+    wait(1) -- รอ 1 วินาที
+
+    -- สร้างสีใหม่แบบสุ่ม
+    local newColor = Color3.new(math.random(), math.random(), math.random())
+    
+    -- เซ็ตสีใหม่ให้กับส่วนที่เลือก
+    part.BrickColor = BrickColor.new(newColor)
+end
 
 Cmdbar.Name = "Cmdbar"
 Cmdbar.Parent = Holder
