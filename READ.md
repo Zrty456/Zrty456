@@ -12417,5 +12417,5 @@ task.spawn(function()
 	Credits:Destroy()
 	IntroBackground:Destroy()
 	minimizeHolder()
-	if IsOnMobile then notify("Unstable Device", "On mobile, Infinite Yield may have issues or features that are not functioning correctly.") end
+	if IsOnMobile then notify("Unstable Device", "🙏ความรักและความสุขไม่ได้อยู่ในสถานที่ที่คุณไป🤡🤡แต่อยู่ในที่ที่คุณมีใจอยากจะไป🙏") end
 end)
