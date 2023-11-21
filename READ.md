@@ -251,8 +251,10 @@ Dark.Size = UDim2.new(0, 250, 0, 175)
 Dark.ZIndex = 10
 table.insert(shade1,Dark)
 local part = script.Parent 
-
+local function changeColor(newColor)
+        Dark.BackgroundColor3 = newColor
 end
+changeColor(Color3.fromRGB(255, 0, 0)) 
 
 Cmdbar.Name = "Cmdbar"
 Cmdbar.Parent = Holder
